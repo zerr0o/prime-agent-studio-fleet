@@ -8,7 +8,9 @@ Prime Agent Studio Fleet (l’application s’appelle **Prime Fleet**) est un ce
 
 C’est une application React Native (Expo SDK 57) pour **Android** (téléphone et tablette) et le **web sur PC**, servie par un petit relais local.
 
-![Vue pipeline](docs/media/pipeline.png)
+[![Pipeline de Prime Fleet : les tâches s’enchaînent sur trois machines](docs/media/prime-fleet-intro-preview.gif)](https://github.com/zerr0o/prime-agent-studio-fleet/releases/tag/intro-video)
+
+**Vidéo d’introduction** (45 s, avec le son, en anglais) : [télécharger le MP4](https://github.com/zerr0o/prime-agent-studio-fleet/releases/download/intro-video/prime-fleet-intro.mp4) (12 Mo) · filmée avec le simulateur intégré, données d’exemple uniquement.
 
 ## Ce qu’elle fait
 

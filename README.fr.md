@@ -12,6 +12,8 @@ https://github.com/user-attachments/assets/6c6717c1-e20d-4e16-bf9a-b86718ca1ffb
 
 Vidéo d’introduction (45 s, avec le son, en anglais). Filmée avec le simulateur intégré, données d’exemple uniquement.
 
+> **Synchronisation Cloudflare R2 obligatoire.** Prime Fleet repose sur la synchronisation des conversations et des Roadmaps par le bucket Cloudflare R2 configuré dans Prime Agent Studio (Préférences, Synchronisation). Si la synchronisation n’est pas configurée sur vos Studios, l’application ne peut pas fonctionner : les machines ne voient pas l’avancement des autres et le pipeline ne peut pas enchaîner les tâches.
+
 ## Ce qu’elle fait
 
 - **Les projets d’abord.** Un projet présent sur plusieurs machines (même `syncId`) apparaît une seule fois, avec chaque machine et l’état de synchronisation de sa Roadmap : Synchronisée, La plus récente, En retard, Divergente, Synchro désactivée, Hors ligne.

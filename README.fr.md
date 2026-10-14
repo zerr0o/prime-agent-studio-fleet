@@ -4,6 +4,8 @@
 
 > **Projet en cours · démo technique.** Ce projet montre comment piloter plusieurs [Prime Agent Studio](https://github.com/zerr0o/prime-agent-studio) avec l’API publique v1 de Studio. Ce n’est pas un produit fini : attendez-vous à des manques et à des changements incompatibles.
 
+> **Synchronisation Cloudflare R2 obligatoire.** Prime Fleet repose sur la synchronisation des conversations et des Roadmaps par le bucket Cloudflare R2 configuré dans Prime Agent Studio (Préférences, Synchronisation). Si la synchronisation n’est pas configurée sur vos Studios, l’application ne peut pas fonctionner : les machines ne voient pas l’avancement des autres et le pipeline ne peut pas enchaîner les tâches.
+
 Prime Agent Studio Fleet (l’application s’appelle **Prime Fleet**) est un centre de contrôle pour plusieurs [Prime Agent Studio](https://github.com/zerr0o/prime-agent-studio). Il parle à chaque Studio par son API publique v1, regroupe les machines par projet, indique si chaque machine a une Roadmap à jour et exécute un pipeline prévisionnel de tâches de la Roadmap sur vos PC.
 
 C’est une application React Native (Expo SDK 57) pour **Android** (téléphone et tablette) et le **web sur PC**, servie par un petit relais local.
@@ -11,8 +13,6 @@ C’est une application React Native (Expo SDK 57) pour **Android** (téléphone
 https://github.com/user-attachments/assets/6c6717c1-e20d-4e16-bf9a-b86718ca1ffb
 
 Vidéo d’introduction (45 s, avec le son, en anglais). Filmée avec le simulateur intégré, données d’exemple uniquement.
-
-> **Synchronisation Cloudflare R2 obligatoire.** Prime Fleet repose sur la synchronisation des conversations et des Roadmaps par le bucket Cloudflare R2 configuré dans Prime Agent Studio (Préférences, Synchronisation). Si la synchronisation n’est pas configurée sur vos Studios, l’application ne peut pas fonctionner : les machines ne voient pas l’avancement des autres et le pipeline ne peut pas enchaîner les tâches.
 
 ## Ce qu’elle fait
 

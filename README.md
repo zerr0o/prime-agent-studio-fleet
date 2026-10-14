@@ -4,6 +4,8 @@
 
 > **Work in progress · technical demo.** This project shows how to drive several [Prime Agent Studio](https://github.com/zerr0o/prime-agent-studio) instances through the Studio public API v1. It is not a finished product: expect missing parts and breaking changes.
 
+> **Requires Cloudflare R2 sync.** Prime Fleet relies on the sync of conversations and Roadmaps through the Cloudflare R2 bucket configured in Prime Agent Studio (Preferences, Synchronization). If sync is not configured on your Studios, the app cannot work: machines never see each other's progress and the pipeline cannot chain tasks.
+
 Prime Agent Studio Fleet (the app is called **Prime Fleet**) is a control center for several [Prime Agent Studio](https://github.com/zerr0o/prime-agent-studio) instances. It talks to each Studio through its public API v1, groups the machines by project, shows whether each machine has an up-to-date Roadmap, and runs a planned pipeline of Roadmap tasks across your PCs.
 
 It is a React Native app (Expo SDK 57) for **Android** (phone and tablet) and the **web on a PC**, served by a small local relay.
@@ -11,8 +13,6 @@ It is a React Native app (Expo SDK 57) for **Android** (phone and tablet) and th
 https://github.com/user-attachments/assets/6c6717c1-e20d-4e16-bf9a-b86718ca1ffb
 
 Intro video (45 s, with sound). Recorded on the built-in simulator, sample data only.
-
-> **Requires Cloudflare R2 sync.** Prime Fleet relies on the sync of conversations and Roadmaps through the Cloudflare R2 bucket configured in Prime Agent Studio (Preferences, Synchronization). If sync is not configured on your Studios, the app cannot work: machines never see each other's progress and the pipeline cannot chain tasks.
 
 ## What it does
 

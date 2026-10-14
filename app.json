@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Prime Fleet",
+    "slug": "prime-fleet",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "primefleet",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "dev.zerr0o.primefleet",
+      "adaptiveIcon": {
+        "backgroundColor": "#b7b2e7",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1b1c1e",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 88
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.zerr0o.primefleet"
+    }
+  }
+}
